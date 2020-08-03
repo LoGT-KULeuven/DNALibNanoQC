@@ -35,7 +35,7 @@ def print_best_match(counter, alignment, tile, position):
     
 # open each file of sequences and make sure they are upper case (pairwise2 case sensitive)
 pos1 = fasta_upper(list(SeqIO.parse(os.path.join(FASTA, "tiles_position1.fasta"), "fasta")))
-pos2 = fasta_upper(list(SeqIO.parse(os.path.join(FASTA, "tiles_position1.fasta"), "fasta")))
+pos2 = fasta_upper(list(SeqIO.parse(os.path.join(FASTA, "tiles_position2.fasta"), "fasta")))
 pos3 = fasta_upper(list(SeqIO.parse(os.path.join(FASTA, "tiles_position3.fasta"), "fasta")))
 pos4 = fasta_upper(list(SeqIO.parse(os.path.join(FASTA, "tiles_position4.fasta"), "fasta")))
 
